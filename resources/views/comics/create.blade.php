@@ -6,7 +6,10 @@
 @section('content')
 
     <form action="{{ route('comics.create') }}" method="POST">
-    
+        @csrf
+
+        <label for="name"></label>
+
     </form>
 
 @endsection
